@@ -1,0 +1,9 @@
+a=int(input(&quot;Enter first number&quot;))
+b=int(input(&quot;Enter second number&quot;))
+c=int(input(&quot;Enter third number&quot;))
+if(a&gt;b and a&gt;c):
+print &quot;Largest is&quot;,a
+elif(b&gt;a and b&gt;c):
+print &quot;Largest is&quot;,b
+else:
+print &quot;Largest is&quot;,c
