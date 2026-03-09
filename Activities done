@@ -1,0 +1,10 @@
+temp=raw_input(&quot;Enter temperature warm/cold&quot;)
+hum=raw_input(&quot;Enter humidity humid/dry&quot;)
+if(temp==&#39;warm&#39; and hum==&#39;dry&#39;):
+print &quot;You can play Basket Ball&quot;
+elif(temp==&#39;warm&#39; and hum==&#39;humid&#39;):
+print &quot;You can play Tennis&quot;
+elif(temp==&#39;cold&#39; and hum==&#39;dry&#39;):
+print &quot;You can play Cricket&quot;
+else:
+print &quot;You can swim&quot;
