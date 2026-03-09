@@ -1,0 +1,12 @@
+num=int(input(&quot;Enter the number&quot;))
+sums=0
+temp=num
+while (temp!=0):
+dgt=temp%10
+sums=(sums+(dgt*dgt*dgt))
+temp=temp/10
+if(num==sums):
+
+print &quot;Given number is Amstrong number&quot;
+else:
+print &quot;Given number is NOT Amstrong number&quot;
